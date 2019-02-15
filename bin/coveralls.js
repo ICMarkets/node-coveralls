@@ -15,8 +15,8 @@ process.stdin.on('data', function(chunk) {
 process.stdin.on('end', function() {
     handleInput(input, function(err) {
       if (err) {
+          console.log(333)
         throw err;
       }
     });
 });
-
